@@ -2,13 +2,12 @@
     height: calc(100vh - var(--navbar-height));
     width: var(--sidebar-width);
     background: var(--inverted--bg-color);
-
-    transition: width .3s linear;
+    transition: width 0.3s linear;
     position: relative;
 }
 
 .collapsed {
-    width: var(--sidebar-width-collapsed)
+    width: var(--sidebar-width-collapsed);
 }
 
 .switchers {
